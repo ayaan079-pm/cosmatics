@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking | Ayaan</title>
+  <link rel="stylesheet" href="style.css />
+</head>
+<body>
+
+  <header><h1>Guest Booking</h1></header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery & Data</a></li>
+      <li><a href="booking.html">Guest Booking</a></li>
+      <li><a href="help.html">Help</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <form>
+      <fieldset>
+        <legend>Guest Information</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+
+        <label for="major">Major:</label>
+        <select id="major">
+          <option value="software">Software Engineering</option>
+          <option value="network">Networking</option>
+          <option value="ai">Artificial Intelligence</option>
+        </select>
+
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male" /> Male</label>
+        <label><input type="radio" name="gender" value="female" /> Female</label>
+
+        <label>Hobbies:</label>
+        <label><input type="checkbox" value="reading" /> Reading</label>
+        <label><input type="checkbox" value="coding" /> Coding</label>
+        <label><input type="checkbox" value="sports" /> Sports</label>
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" placeholder="Your message..."></textarea>
+
+        <br><br>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+
+  <footer><p>&copy; 2025 Ayaan Mohamed</p></footer>
+
+</body>
+</html>
